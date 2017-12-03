@@ -1,10 +1,12 @@
 {
   "thumbnail": "https://wnow-modules.s3.amazonaws.com/icon_stroke_news_articlelist.svg",
   "tag": "musab",
-  "affiliates":["wnow,kotv,griffin"],
+  "affiliates":["wnow,wnow,griffin,kotv"],
   "propTypes": {
     "title": "PropTypes.string",
     "layout": "PropTypes.string"
+    
+    
   },
   "defaultProps": {
     "title": "Test uniqueness",
@@ -14,7 +16,8 @@
     "numberOfItems": 6,
     "textColor": "black",
     "heroImageBackgroundColor": "#2980b9",
-    "thumbnailAlignment": "left"
+    "thumbnailAlignment": "left",
+    "lintfix": "false"
   },
   "propChoices": {
     "layout": [
@@ -26,6 +29,7 @@
     {
       "url": "",
       "type": "json"
+      
     }
   ]
 }
